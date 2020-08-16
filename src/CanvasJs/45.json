@@ -1,0 +1,1234 @@
+{
+    "diskTypeID": 1234,
+    "spots": [
+        {
+            "row": "1",
+            "column": "1",
+            "group": "",
+            "id": "Fiducial",
+            "position": [
+                39,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 22.95242814667988
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "2",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                103,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.584737363726461
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "3",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                167,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.3528245787908837
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "4",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                231,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.20218037661050658
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "5",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                296,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.3419226957383543
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "6",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                360,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.5559960356788913
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "7",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                424,
+                41
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.02180376610505519
+                }
+            ]
+        },
+        {
+            "row": "1",
+            "column": "8",
+            "group": "",
+            "id": "Fiducial",
+            "position": [
+                489,
+                37
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 24.629335976214072
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "1",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                39,
+                105
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.030723488602575344
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "2",
+            "group": "",
+            "id": "a.HuIgG_0.1",
+            "position": [
+                103,
+                105
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.6025768087215049
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "3",
+            "group": "",
+            "id": "HuIgG_0.03",
+            "position": [
+                166,
+                106
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 53.648166501486614
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "4",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                231,
+                104
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 25.66600594648167
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "5",
+            "group": "",
+            "id": "a.HuIgG_0.3",
+            "position": [
+                296,
+                103
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 8.97621407333994
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "6",
+            "group": "",
+            "id": "HuIgG_0.1",
+            "position": [
+                360,
+                103
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 16.54707631318137
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "7",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                424,
+                105
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 6.359762140733402
+                }
+            ]
+        },
+        {
+            "row": "2",
+            "column": "8",
+            "group": "",
+            "id": "HuIgG_0.3",
+            "position": [
+                489,
+                105
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.7086223984142705
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "1",
+            "group": "",
+            "id": "a.HuIgG_0.03",
+            "position": [
+                39,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.4915758176412304
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                103,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 4.418235877106042
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "3",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                167,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.0773042616451924
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "4",
+            "group": "",
+            "id": "HuIgM_0.03",
+            "position": [
+                231,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.5659068384539161
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "5",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                296,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.11100099108027806
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "6",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                360,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.838453914767097
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "7",
+            "group": "",
+            "id": "HuIgM_0.1",
+            "position": [
+                424,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.7264618434093144
+                }
+            ]
+        },
+        {
+            "row": "3",
+            "column": "8",
+            "group": "",
+            "id": "HuIgM_0.3",
+            "position": [
+                489,
+                169
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.06442021803766096
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "1",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                36,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 9.182358771060457
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                101,
+                232
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 8.068384539147672
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "3",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                167,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.4648166501486628
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "4",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                231,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.35877106045589713
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "5",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                296,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.0673934588701677
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "6",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                360,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.035678889990087725
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "7",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                424,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.89593657086224
+                }
+            ]
+        },
+        {
+            "row": "4",
+            "column": "8",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                489,
+                233
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.0555004955401373
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "1",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                39,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.3151635282457868
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                103,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.3855302279484647
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "3",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                168,
+                296
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 7.933597621407337
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "4",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                231,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 7.373637264618431
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "5",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                296,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.0872150644202172
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "6",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                360,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.3815659068384534
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "7",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                424,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.194251734390484
+                }
+            ]
+        },
+        {
+            "row": "5",
+            "column": "8",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                489,
+                297
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.3885034687809714
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "1",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                39,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.47373637264618296
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                103,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.6204162537165523
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "3",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                167,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.4271555996035694
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "4",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                231,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.5698711595639239
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "5",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                293,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 7.912784935579779
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "6",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                360,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 7.095143706640236
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "7",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                424,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.7789890981169485
+                }
+            ]
+        },
+        {
+            "row": "6",
+            "column": "8",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                489,
+                361
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.0237859266600609
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "1",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                39,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.0535183349851351
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                103,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.04360753221011038
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "3",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                167,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.19326065411298288
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "4",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                231,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.3567888999008915
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "5",
+            "group": "",
+            "id": "SGC-SPIKE19200701",
+            "position": [
+                296,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 2.9385530227948458
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "6",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                360,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.22398414271555822
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "7",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                424,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 6.750247770069379
+                }
+            ]
+        },
+        {
+            "row": "7",
+            "column": "8",
+            "group": "COVID",
+            "id": "SARS-CoV2.NP",
+            "position": [
+                489,
+                425
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 6.854311199207135
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "1",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                39,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.44103072348860195
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                103,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 1.064420218037661
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "3",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                167,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.8136769078295352
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "4",
+            "group": "COVID",
+            "id": "SARS-CoV2.RBD.mFc",
+            "position": [
+                231,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.7938553022794856
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "5",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                296,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.2765113974231923
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "6",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                360,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.14568880079286473
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "7",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                424,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.42021803766105137
+                }
+            ]
+        },
+        {
+            "row": "8",
+            "column": "8",
+            "group": "",
+            "id": "BUFFER",
+            "position": [
+                489,
+                489
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.47373637264618296
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "1",
+            "group": "",
+            "id": "Fiducial",
+            "position": [
+                39,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 23.32903865213082
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "2",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                103,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.29038652130822484
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "3",
+            "group": "",
+            "id": "a.HuIgM_0.3",
+            "position": [
+                167,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.21407333994053346
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "4",
+            "group": "",
+            "id": "PBSTwash",
+            "position": [
+                231,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.23290386521308193
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "5",
+            "group": "",
+            "id": "BLANK",
+            "position": [
+                296,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.6541129831516344
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "6",
+            "group": "",
+            "id": "BLANK",
+            "position": [
+                360,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": 0.6917740336967277
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "7",
+            "group": "",
+            "id": "HuIgM_0.03",
+            "position": [
+                424,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.02675916749256757
+                }
+            ]
+        },
+        {
+            "row": "9",
+            "column": "8",
+            "group": "",
+            "id": "HuIgM_0.1",
+            "position": [
+                489,
+                554
+            ],
+            "analysis": [
+                {
+                    "name": "Spot Mean - Donut Median",
+                    "version": "0.0",
+                    "value": -0.2517343904856304
+                }
+            ]
+        }
+    ],
+    "grid_info": {
+        "info": "Grid Detect",
+        "version": "0.1",
+        "avg_spot_dia": 36
+    }
+}
