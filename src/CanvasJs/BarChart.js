@@ -8,6 +8,7 @@ const BarChart = () => {
 
 	const mainObj = {};
 	const dataPoints = [];
+	const dataPointsAvg = [];
 	let fileReader;
 	const [mainJson, setMainJson] = useState(false);
 
@@ -22,6 +23,14 @@ const BarChart = () => {
 		event.target.files.length && fileReader.readAsText(event.target.files[0])
 	};
 
+	const average = array => {
+		const sum = array.reduce((val, accum) => {
+			console.log({accum, val})
+			return accum + val;
+		})
+		return sum/array.length;
+	}
+
 	mainJson && mainJson.spots && mainJson.spots.forEach(spot => {
 		if(mainObj[spot.id]){
 			mainObj[spot.id].push(spot.analysis[0].value)
@@ -35,30 +44,40 @@ const BarChart = () => {
 		dataPoints.push({
 			label: spot, y: vals
 		})
+	};
+
+	for(let spot in mainObj){
+		dataPointsAvg.push({
+			label: spot, y: average(mainObj[spot])
+		})
 	}
 
 	const options = {
-		theme: "dark2",
-		exportEnabled: true,
 		animationEnabled: true,
+		theme: "light2",
 		title:{
-			text: ""
+			text: "Some Title"
 		},
-		axisX: {
-			title: "Spot Titles",
-			reversed: true,
+		axisY:{
+			title: "Values"
 		},
-		axisY: {
-			title: "Spot Analysis Values",
-			suffix: ""
+		toolTip: {
+			shared: true
 		},
-		data: [{
-			type: "rangeColumn",
-			indexLabel: "{y[#index]}",
-			xValueFormatString: "Min Max",
-			toolTipContent: "<strong>{x}</strong></br> Max: {y[1]}<br/> Min: {y[0]}",
+		data: [
+		{
+			type: "column",
+			name: "Avg. Spot Value",
+			toolTipContent: "<b>{label}</b> <br> <span style=\"color:#4F81BC\">{name}</span>: {y}",
+			dataPoints: dataPointsAvg
+		},
+		{
+			type: "error",
+			name: "Variability Range",
+			toolTipContent: "<span style=\"color:#C0504E\">{name}</span>: {y[0]} - {y[1]}",
 			dataPoints: dataPoints
-		}]
+		}
+		]
 	}
 	
 	const preCode = mainJson && <div><h1>Formatted JSON</h1><pre style={{ width: '80%', marginLeft: 'auto', marginRight: "auto", backgroundColor: "black", textAlign: "left", fontFamily: "monospace", color: "springgreen" }}>{JSON.stringify(mainJson, null, 2)}</pre><h1>Formatted Grouped JSON</h1><pre style={{ width: '80%', marginLeft: 'auto', marginRight: "auto", backgroundColor: "black", textAlign: "left", fontFamily: "monospace", color: "springgreen" }}>{JSON.stringify(mainObj, null, 2)}</pre></div>
