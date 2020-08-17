@@ -19,7 +19,7 @@ const BarChart = () => {
 	const handleselectedFile = (event) => {
 		fileReader = new FileReader();
 		fileReader.onloadend = handleFileRead;
-		fileReader.readAsText(event.target.files[0])
+		event.target.files.length && fileReader.readAsText(event.target.files[0])
 	};
 
 	mainJson && mainJson.spots && mainJson.spots.forEach(spot => {
@@ -61,6 +61,7 @@ const BarChart = () => {
 		}]
 	}
 	
+	const preCode = mainJson && <div><h1>Formatted JSON</h1><pre style={{ width: '80%', marginLeft: 'auto', marginRight: "auto", backgroundColor: "black", textAlign: "left", fontFamily: "monospace", color: "springgreen" }}>{JSON.stringify(mainJson, null, 2)}</pre></div>
 	return (
 		<div>
 			<h1>Please Upload a .JSON file to see the Column Chart</h1>
@@ -69,7 +70,9 @@ const BarChart = () => {
 			</div>
 			<br />
 			{mainJson && <CanvasJSChart options = {options} />}
-			{/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
+			<br />
+			{preCode}
+			<br />
 		</div>
 	);
 }
