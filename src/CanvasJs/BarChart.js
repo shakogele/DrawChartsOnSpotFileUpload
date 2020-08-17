@@ -54,22 +54,22 @@ const BarChart = () => {
 		},
 		data: [{
 			type: "rangeColumn",
-			indexLabel: "{y[#index]}°",
+			indexLabel: "{y[#index]}",
 			xValueFormatString: "Min Max",
 			toolTipContent: "<strong>{x}</strong></br> Max: {y[1]}<br/> Min: {y[0]}",
 			dataPoints: dataPoints
 		}]
 	}
 	
-	const preCode = mainJson && <div><h1>Formatted JSON</h1><pre style={{ width: '80%', marginLeft: 'auto', marginRight: "auto", backgroundColor: "black", textAlign: "left", fontFamily: "monospace", color: "springgreen" }}>{JSON.stringify(mainJson, null, 2)}</pre></div>
+	const preCode = mainJson && <div><h1>Formatted JSON</h1><pre style={{ width: '80%', marginLeft: 'auto', marginRight: "auto", backgroundColor: "black", textAlign: "left", fontFamily: "monospace", color: "springgreen" }}>{JSON.stringify(mainJson, null, 2)}</pre><h1>Formatted Grouped JSON</h1><pre style={{ width: '80%', marginLeft: 'auto', marginRight: "auto", backgroundColor: "black", textAlign: "left", fontFamily: "monospace", color: "springgreen" }}>{JSON.stringify(mainObj, null, 2)}</pre></div>
 	return (
 		<div>
-			<h1>Please Upload a .JSON file to see the Column Chart</h1>
+			<h1>{ !mainJson ? 'Please Upload a .JSON file to see the Column Chart' : "" }</h1>
 			<div>
 				<input type="file" name="" accept=".json" id="" onChange={handleselectedFile} />
 			</div>
 			<br />
-			{mainJson && <CanvasJSChart options = {options} />}
+			<div style={{ padding: '5px' }}>{mainJson && <CanvasJSChart options = {options} />}</div>
 			<br />
 			{preCode}
 			<br />
